@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "first_name": "Syed",
+        "last_name": "Ali",
+        "email": "asf@gmail.com",
+        "gender": "male",
+        "job_title": "Software Consultant"
+    },
+    {
+        "id": 3,
+        "first_name": "Muhammad",
+        "last_name": "Ali",
+        "email": "mali@gmail.com",
+        "gender": "male",
+        "job_title": "AI Engineer"
+    },
+    {
+        "id": 5,
+        "first_name": "Hassan",
+        "last_name": "Ali",
+        "email": "hasinf@gmail.com",
+        "gender": "male",
+        "job_title": "Programmer"
+    },
+    {
+        "id": 6,
+        "first_name": "Sajida",
+        "last_name": "Batool",
+        "email": "sbalft@gmail.com",
+        "gender": "female",
+        "job_title": "Teacher"
+    },
+    {
+        "id": 10,
+        "first_name": "Sajida",
+        "last_name": "Batool",
+        "email": "sbalft@gmail.com",
+        "gender": "female",
+        "job_title": "Teacher"
+    },
+    {
+        "first_name": "Taqi",
+        "last_name": "Haider",
+        "email": "taqw21@gmail.com",
+        "gender": "male",
+        "job_title": "Phar. Tech",
+        "id": 11
+    },
+    {
+        "first_name": "Syeda",
+        "last_name": "Shazia",
+        "email": "syeda786@gmail.com",
+        "gender": "female",
+        "job_title": "Back End Developer",
+        "id": 12
+    },
+    {
+        "first_name": "Syed",
+        "last_name": "Shahzaib",
+        "email": "syed786@gmail.com",
+        "gender": "male",
+        "job_title": "Front End Developer",
+        "id": 13
+    },
+    {
+        "first_name": "Asif",
+        "last_name": "Raza",
+        "email": "asff@gmail.com",
+        "gender": "male",
+        "job_title": "Teacher",
+        "id": 4
+    }
+]

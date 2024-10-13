@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Room |</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        .regForm {
+            width: 98%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            margin: 10px;
+            padding: 10px 30px;
+        }
+        select{
+            padding: 10px 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="regForm">
+        <h1>Regestration For Room Booking</h1>
+        <form action="/getRoom" method="post">
+            <label for="custName" >Customer Name *
+                <input type="text" placeholder="Saqlain Haider" name="custName" required id="custName">
+            </label> <br>
+            <label for="custEmail">Customer Email *
+                <input type="email" name="custEmail" placeholder="abc@gmail.com" id="custEmail" required>
+            </label> <br>
+            <label for="custPhno">Customer Phone Number
+                <input type="tel" name="custPhno" placeholder="03*********" id="custPhno">
+            </label> <br>
+            <label for="custRoomNo">Room No*
+                <input type="number" placeholder="XXX" name="custRoomNo" required id="custRoomNo">
+            </label> <br>
+            <label for="roomSeater">
+                <select name="roomSeater" id="roomSeater" required>
+                    <option value="---">Select Seat</option>
+                    <option value="1 Seater">1 Seater</option>
+                    <option value="2 Seater">2 Seater</option>
+                    <option value="3 Seater">3 Seater</option>
+                </select>
+            </label> <br>
+            <label for="submit">
+                <input type="submit" name="submit" value="Book Now">
+            </label>
+        </form>
+    </div>
+</body>
+
+</html>

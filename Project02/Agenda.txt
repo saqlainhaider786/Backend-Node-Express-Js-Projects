@@ -1,0 +1,4 @@
+1 ==> store medicines details - name,price,quantity,mnfData,expDate
+2 ==> display all medicines details.
+3 ==> search any particular medicine's details.
+4 ==> remove medicines

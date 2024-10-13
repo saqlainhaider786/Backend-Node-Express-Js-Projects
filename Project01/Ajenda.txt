@@ -1,0 +1,14 @@
+Building a REST API
+
+Task1 ==> GET /users - This will return all users's names as html(listing).
+
+Task2 ==> GET /api/users - This will return all users's data in json.
+
+Task3 ==> GET /api/users/ID - This will return only ID's data.
+In this task we will use dynamic parameters.(res.params) It is denoted by ":".
+":" represents a variable.
+Task4 ==> POST /api/users - This will create new user.
+
+Task5 ==> PATCH /api/users/ID - This will update data of user with ID
+
+Task6 ==> DELETE /api/users/ID - This will delete user with ID

@@ -1,0 +1,14 @@
+ =======================  Hotel Management System ======================= 
+
+ =======================  Overview =======================
+ => Home with Advertisement - Done
+ => Registration Panel - Done
+ => All Booked rooms and their rentals list
+
+ =======================  Routes =======================
+
+Get on / : This will Advertise about the Hotel. - Done
+
+Post on /getRoom : This will get data for room booking.
+
+Get on /Customers : This will show details of all Customers.
